@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://example.com/domain/types"
+           targetNamespace="http://example.com/domain/types" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+    <xs:include schemaLocation="Bar.xsd"/>
+
+    <xs:complexType name="FooType">
+        <xs:sequence>
+            <xs:element name="bar" type="BarType"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

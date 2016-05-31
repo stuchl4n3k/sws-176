@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://example.com/domain/types"
+           targetNamespace="http://example.com/domain/types" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+    <xs:simpleType name="BarType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="ONE"/>
+            <xs:enumeration value="TWO"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:send="http://example.com/ws/example"
+                  xmlns:typ="http://example.com/domain/types">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <send:ExampleRequest>
+            <send:message>
+                <typ:text>The text of the message</typ:text>
+            </send:message>
+        </send:ExampleRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
